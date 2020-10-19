@@ -1,0 +1,57 @@
+:root {
+    /* palette */
+    --darker: #141414;
+    --dark: #1f1f1f;
+    --middle: #292929;
+    --light: #333333;
+    --lighter: #b8b8b8;
+}
+
+.darker-color{
+    color: var(--darker);
+}
+
+.dark-color{
+    color: var(--dark);
+}
+
+.middle-color{
+    color: var(--middle);
+}
+
+.ligth-color{
+    color: var(--light);
+}
+
+.lighter-color{
+    color: var(--lighter);
+}
+
+.darker-bg{
+    background-color: var(--darker);
+}
+
+.dark-bg{
+    background-color: var(--dark);
+}
+
+.middle-bg{
+    background-color: var(--middle);
+}
+
+.ligth-bg{
+    background-color: var(--light);
+}
+
+.lighter-bg{
+    background-color: var(--lighter);
+}
+
+.light-to-dark-bg{
+    background-image: linear-gradient(var(--lighter), var(--middle));
+
+}
+
+.dark-to-light-bg{
+    background-image: linear-gradient(0deg, var(--lighter), var(--middle));
+}

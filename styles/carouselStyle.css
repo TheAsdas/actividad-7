@@ -1,0 +1,60 @@
+@import url(palette.css);
+
+#about-me {
+    background-color: var(--dark);
+    color: var(--lighter);
+
+    height: 600px;
+    width: auto;
+
+    margin: 100px auto 100px auto;
+    width: 60vw;
+
+    border-radius: 10px;
+}
+
+#about-me h2 {
+    width: auto;
+    padding: 10px 0 10px 0;
+}
+
+
+#info-carousel {
+    width: 50vw;
+
+    margin: auto;
+}
+
+#info-carousel div i {
+    font-size: 200px;
+
+    margin-bottom: 10px;
+}
+
+#info-carousel div span{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#info-carousel div a {
+    text-decoration: none;
+
+    color: var(--lighter);
+
+    transition: 500ms;
+}
+
+#info-carousel div a:hover {
+    color: tomato;
+}
+
+.slick-dots li button:before{
+    color: var(--darker) !important;
+    opacity: 100% !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--lighter) !important;
+}
+
